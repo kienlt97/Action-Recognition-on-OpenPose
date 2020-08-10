@@ -19,11 +19,13 @@ A skeleton-based real-time online action recognition project, classifying and re
  - tensorflow & keras
  - numpy & scipy 
  - pathlib
- 
+ - tensorboard 1.15.0
+ - tensorflow  1.15.0
+ - tensorflow-estimator 1.15.1
  
 ------
 ## Usage
- - Download the openpose VGG tf-model with command line `./download.sh`(/Pose/graph_models/VGG_origin) or fork [here](https://pan.baidu.com/s/1XT8pHtNP1FQs3BPHgD5f-A#list/path=%2Fsharelink1864347102-902260820936546%2Fopenpose%2Fopenpose%20graph%20model%20coco&parentPath=%2Fsharelink1864347102-902260820936546), and place it under the corresponding folder; 
+ - Download the openpose VGG tf-model with command line `./download.sh`(/Pose/graph_models/VGG_origin) or fork [here](https://drive.google.com/drive/folders/1oj3yUuxBpBwg6408ONbllhYcx4POJe-z?usp=sharing), and place it under the corresponding folder; 
  - `python main.py`, it will **start the webcam**. 
  (you can choose to test video with command `python main.py --video=test.mp4`, however I just tested the webcam mode)   
  - By the way, you can choose different openpose pretrained model in script.    
@@ -54,7 +56,10 @@ A skeleton-based real-time online action recognition project, classifying and re
  <p align="center">
     <img src="https://github.com/LZQthePlane/Online-Realtime-Action-Recognition-based-on-OpenPose/blob/master/test_out/webcam_multi-people.gif", width="540">
  
-
+ - ***falling down***
+ <p align="center">
+    <img src="https://github.com/kienlt97/Action-Recognition-on-OpenPose/blob/master/test_out/test8_tf_out.mp4", width="540">
+ 
 -------
 ## Note
  - Action recognition in this work is framewise based, so it's technically "**Pose recognition**" to be exactly;   
