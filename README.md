@@ -58,7 +58,7 @@ A skeleton-based real-time online action recognition project, classifying and re
  
  - ***falling down***
  <p align="center">
-    <img src="https://github.com/kienlt97/Action-Recognition-on-OpenPose/blob/master/test_out/test8_tf_out.mp4", width="540">
+    <img src="https://github.com/kienlt97/Action-Recognition-on-OpenPose/blob/master/test_out/falling_down.gif", width="540">
  
 -------
 ## Note
